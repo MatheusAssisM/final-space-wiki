@@ -42,11 +42,9 @@ export default {
     box-shadow: 0px 0px 5px #000000;
 }
 
-
 .tag {
     background-color: #43525A;
 }
-
 
 @media screen and (min-width: 1024px) {
     .card:after {
@@ -78,14 +76,5 @@ export default {
     .card:hover {
         animation: zoomOut 0.3s forwards;
     }
-    
-    @keyframes zoomOut {
-        to {
-            transform: scale(1.2, 1.1);
-            margin: 10px;
-        }
-        
-    }
 }
-
 </style>

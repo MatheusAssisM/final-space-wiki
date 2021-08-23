@@ -1,6 +1,13 @@
 <template>
-<div class="body container-xl mx-auto ">
-  <Nuxt />
+<div>
+  <header>
+    <NavBar />
+  </header>
+  <main>
+    <div class="body container-xl mx-auto pt-36 min-h-screen">
+      <Nuxt />
+    </div>
+  </main>
 </div>
 </template>
 
