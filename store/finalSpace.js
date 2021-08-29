@@ -1,6 +1,6 @@
-export const state = {
+export const state = () => ({
     allCharacters: []
-}
+})
 
 export const mutations = {
     set(state, [key, value]) {

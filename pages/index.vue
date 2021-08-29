@@ -19,7 +19,7 @@ export default {
 }
 
 .content {
-  
+
 }
 
 
