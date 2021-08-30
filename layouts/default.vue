@@ -14,19 +14,7 @@
 
 <script>
 export default {
-  watch: {
-    $route() {
-      this.$router.beforeEach((to, from, next) => {
-        this.$store.commit('loader/set', ['isLoading', true])
-        next()
-      })
-      this.$router.onReady(() => {
-        setTimeout(() => {
-          this.$store.commit('loader/set', ['isLoading', false])
-        }, 1000);
-      })
-    }
-  }
+
 }
 </script>
 

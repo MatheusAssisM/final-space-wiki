@@ -1,9 +1,11 @@
 <template>
+<div>
     <div 
         class="loader"
         :class="isLoading? 'in_out' : 'out_in'"
     >
     </div>
+</div>
 </template>
 
 <script>
@@ -50,6 +52,4 @@ export default {
         transform: translateX(100%);
     }
 }
-
-
 </style>

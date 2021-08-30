@@ -1,5 +1,5 @@
 export const state = () =>({
-    isLoading: false,
+    isLoading: true,
 })
 
 export const mutations = {
